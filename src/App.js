@@ -10,8 +10,7 @@ const App = () => {
   const dvlanguage = url.searchParams.get('dvlanguage');
   const subscribed = url.searchParams.get('subscribed');
   const trafficfromapp = url.searchParams.get('trafficfromapp');
-  const key = "";
-
+const key = ""
   // if using a class, equivalent of componentDidMount 
   useEffect(() => {
     WebViewer(
